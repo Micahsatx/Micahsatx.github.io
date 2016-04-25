@@ -1,7 +1,7 @@
 /*background accross page & fonts*/
 body {
-    cursor: url('/img/hammer.png'), default;
-    background-image: url("/img/mario-background.jpg");
+    cursor: url('/whackamole/img/hammer.png'), default;
+    background-image: url("/whackamole/img/mario-background.jpg");
     font-family: 'Audiowide', cursive;
 }
 
@@ -34,7 +34,7 @@ body {
 .individualBox {
     height: 150px;
     width: 150px;
-    cursor: url('/img/hammer.png'), default;
+    cursor: url('/whackamole/img/hammer.png'), default;
     background-position: center;
     background-position: bottom;
     z-index: -1;
@@ -81,40 +81,40 @@ body {
 #idOfStartEasyMode {
     height: 83px;
     width: 270px;
-    cursor: url('/img/hammer.png'), default;
+    cursor: url('/whackamole/img/hammer.png'), default;
 }
 
 /*size characteristics and cursor for each button*/
 #idOfStartHardMode {
     height: 83px;
     width: 270px;
-    cursor: url('/img/hammer.png'), default;
+    cursor: url('/whackamole/img/hammer.png'), default;
 }
 /*size characteristics and cursor for each button*/
 #idOfStartNormalMode {
     height: 83px;
     width: 270px;
-    cursor: url('/img/hammer.png'), default;
+    cursor: url('/whackamole/img/hammer.png'), default;
 }
 
 /*background brick image within each button*/
 button.individualBox {
-    background-image:url('/img/brick.png');
+    background-image:url('/whackamole/img/brick.png');
 }
 
 /*unique image for each mode*/
 button#idOfStartNormalMode {
-    background-image:url('/img/startNormal.png');
+    background-image:url('/whackamole/img/startNormal.png');
 }
 
 /*unique image for each mode*/
 button#idOfStartEasyMode {
-    background-image:url('/img/startEasy.png');
+    background-image:url('/whackamole/img/startEasy.png');
 }
 
 /*unique image for each mode*/
 button#idOfStartHardMode {
-    background-image:url('/img/startHard.png');
+    background-image:url('/whackamole/img/startHard.png');
 }
 
 
